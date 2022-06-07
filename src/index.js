@@ -1,2 +1,7 @@
-//This file will be declare what components people can import from our package.
-export * from "./components/Requirements";
+import React from "react";
+import { render } from "react-dom";
+import "./index.css";
+import App from "./App";
+
+const root = document.getElementById("root");
+render(<App />, root);

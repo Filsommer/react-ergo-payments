@@ -1,0 +1,21 @@
+.App {
+  background-color: red;
+}
+
+
+.App-header {
+  background-color: #c1cee9;
+  background-image: linear-gradient(130deg, rgba(234,238,251,1) 5%, rgba(62,129,157,0.8015800070028012) 29%, rgba(228,233,250,1) 79%, rgba(200,209,244,0.6937368697478992) 91%);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  min-width: 400px !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
