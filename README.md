@@ -15,7 +15,10 @@
 
 ### Built With
 
-Created using [React.js](https://reactjs.org/) version ^17.1.0 and [Nautilus](https://chrome.google.com/webstore/detail/nautilus-wallet/gjlmehlldlphhljhpnlddaodbjjcchai).
+Created using [React.js](https://reactjs.org/) and [Nautilus](https://chrome.google.com/webstore/detail/nautilus-wallet/gjlmehlldlphhljhpnlddaodbjjcchai).
+
+* For React 17 install react-ergo-payments v1.0.0
+* For React 18 install react-ergo-payments v1.0.1
 
 This package uses WASM, which is not supported by `create-react-app (CRA)`. Follow the guide below to install it in an existing CRA.
 
@@ -46,7 +49,8 @@ This package uses WASM, which is not supported by `create-react-app (CRA)`. Foll
 1. ```npm uninstall react-scripts```
 2. ```npm install @craco/craco```
 3. ```npm install wasm-loader```
-4. Create a config file named **craco.config.js** and add this:
+4. Change all *config.js* scripts with ```react-scrips``` to ```craco``` (E.g.: ```"start": "craco start"```)
+5. Create a config file named **craco.config.js** and add this:
 ```
   module.exports = {
   webpack: {
