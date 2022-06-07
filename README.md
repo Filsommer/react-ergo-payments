@@ -43,10 +43,10 @@ This package uses WASM, which is not supported by `create-react-app (CRA)`. Foll
 
 *If you are using CRA, [this](https://dev.to/nicolasrannou/wasm-in-create-react-app-4-in-5mn-without-ejecting-cf6) workaround is needed:*
 
-1. ```npm install @craco/craco```
-
-2. ```npm install wasm-loader```
-3. Create a config file named **craco.config.js** and add this:
+1. ```npm uninstall react-scripts```
+2. ```npm install @craco/craco```
+3. ```npm install wasm-loader```
+4. Create a config file named **craco.config.js** and add this:
 ```
   module.exports = {
   webpack: {

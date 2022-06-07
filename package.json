@@ -7,7 +7,7 @@
     "ergo",
     "dapp"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -29,8 +29,8 @@
     "ergo-lib-wasm-browser": "^0.16.1",
     "json-bigint": "^1.0.0",
     "process": "^0.11.10",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-select": "^5.3.2",
     "web-vitals": "^2.1.4"
   },
