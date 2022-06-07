@@ -7,9 +7,9 @@
 ## What is this library?
   The **React Ergo Payments** library is an npm package developed to allow clients to pay/subscribe with ERG within your website. It validates and and submits the client's transaction and your website can do all sorts of fun stuff upon success.
   Including: 
-  1. Saving the tx into your database and create active subscriptions depending on timestamp
+  1. Allowing users to pay/donate X ERG to a specific wallet Y
   2. Triggering a purchase request in your online store
-  3. Allow users to pay/donate to specific addresses
+  3. Saving the tx into your database and creating active subscriptions depending on the timestamp
 
 <br/>
 
