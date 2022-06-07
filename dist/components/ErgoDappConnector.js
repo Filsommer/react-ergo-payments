@@ -233,7 +233,6 @@ const ErgoDappConnector = _ref => {
       outBoxBuilder.set_register_value(4, wasm.Constant.from_byte_array(encodedRef));
       console.log('R4:', new TextDecoder().decode(outBoxBuilder.register_value(4).to_byte_array()));
     } catch (e) {
-      console.log(e);
       setErrorMessage("The address you provided is invalid.");
       return;
     }
